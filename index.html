@@ -8,9 +8,9 @@
   <body>
     <a-scene>
       <a-assets>
-        <video id="城ヶ崎海岸動画４" src="城ヶ崎海岸動画４.mp4" preload="auto" autoplay></video>
+        <video id="douga" src="douga.mp4" preload="auto" autoplay></video>
       </a-assets>
-      <a-videosphere src="#城ヶ崎海岸動画４" rotation="0 -65 0"></a-videosphere>
+      <a-videosphere src="#douga" rotation="0 -65 0"></a-videosphere>
       <a-box id="play" position="0 1.6 -1.5" scale="1 1 1" material="opacity: 0; color: #ffffff"></a-box>
       <a-box id="stop" position="0.5 0 -1" scale="0.2 0.2 0.2" color="red"></a-box>
       <a-camera>
@@ -19,7 +19,7 @@
       <a-entity laser-controls></a-entity>
     </a-scene>
     <script>
-      const video = document.getElementById("城ヶ崎海岸動画４");
+      const video = document.getElementById("douga");
       const btnPlay = document.getElementById("play");
 
       function tugi(){
